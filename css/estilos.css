@@ -1,0 +1,42 @@
+body{
+	background-image: url("../img/fon.avif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+article{
+	box-shadow: 0 0 4px 2px #FF689D;
+  	margin: inherit;
+  	position: static;
+  	background: #E69DFB;
+  	padding: 10px;
+  
+}
+article img{
+	width: 200px;
+	height: 250px;
+	border-radius: 50%;
+}
+article p{
+	padding: 20px;
+}
+.Contenedor{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+.Contenedor a{
+	font-size: 30px;
+	transition: all ease 300ms;
+}
+.facebook{
+	color: blue;
+}
+.instagram{
+	color: #DD2A7B;
+}
+.twitter{
+	color:#08a0e9 ;
+}
+.Contenedor a:hover{
+	transform:scale(1.2) ;
+}
